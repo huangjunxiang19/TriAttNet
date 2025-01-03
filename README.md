@@ -1,7 +1,7 @@
 # TriAttNet: Triple Attention Network for Image Super-Resolution
 
 ## Overview
-![Description of image](Result/diagram.png)
+![Description of image](Result/architecture.png)
 TriAttNet is a cutting-edge image super-resolution model that integrates a novel **Triple Attention Mechanism**, which enhances image quality by learning complex dependencies across multiple dimensions. This model aims to push the boundaries of image resolution enhancement by combining three distinct types of attention: **Channel Attention**, **Spatial Attention**, and **Self-Attention**. By leveraging these mechanisms, TriAttNet can produce superior quality high-resolution images from low-resolution inputs, outperforming traditional methods that focus on only one aspect of the attention.
 
 Our experiments, conducted as part of this project, showcase the model’s ability to effectively capture both local and global dependencies in images, providing more accurate and detailed results in real-world applications such as image restoration, medical imaging, and satellite imagery.
