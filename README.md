@@ -33,6 +33,19 @@ Throughout the experiments, we observed that incorporating the **Triple Attentio
 ![Description of image](Result/scale_2/set5/epoch_1.png)
 ![Description of image](Result/scale_2/set14/epoch_13.png)
 ![Description of image](Result/scale_2/set14/epoch_8.png)
+# Performance Metrics
+
+The following table shows the average PSNR and SSIM values for different scales and datasets.
+
+| Scale | Set | Average PSNR (dB) | Average SSIM |
+|-------|-----|--------------------|--------------|
+| **2** | Set 5 | 29.70 | 0.8621 |
+|       | Set 14 | 28.38 | 0.8421 |
+| **3** | Set 5 | 28.13 | 0.8118 |
+|       | Set 14 | 25.97 | 0.7396 |
+| **4** | Set 5 | 26.44 | 0.7535 |
+|       | Set 14 | 28.38 | 0.8421 |
+
 ## Requirements
 
 To replicate the results or train your own model, the following dependencies are required:
