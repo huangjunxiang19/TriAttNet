@@ -28,7 +28,7 @@ TriAttNet consists of a carefully crafted architecture that incorporates multipl
    The final convolution layer refines the enhanced image and applies a **Tanh** activation function, ensuring that the pixel values are within the range suitable for output.
 
 ### Experiment Insights
-Throughout the experiments, we observed that incorporating the **Triple Attention Mechanism** allowed the model to significantly improve upon traditional convolutional-based super-resolution methods. The performance in terms of **Peak Signal-to-Noise Ratio (PSNR)** and **Structural Similarity Index (SSIM)** was consistently higher, especially when applied to datasets with diverse image content.
+Throughout the experiments, we observed that incorporating the **Triple Attention Mechanism** allowed the model to significantly improve upon traditional convolutional-based super-resolution methods. The performance in terms of **Peak Signal-to-Noise Ratio (PSNR)** and **Structural Similarity Index (SSIM)** was consistently better with training a lot of different kinds of HR images, especially when applied to datasets with diverse image content.
 ## Result 
 ![Description of image](Result/scale_2/set5/epoch_1.png)
 ![Description of image](Result/scale_2/set14/epoch_13.png)
